@@ -201,5 +201,86 @@ footer{
 }
 
 
-@media screen and (max-width: 1339px) {
+@media only screen and (max-width: 770px) {
+
+    .logo-head{
+        margin-top: 70px;
+        margin-left: 20px;
+        align-items: center;
+        width: 100px;
+    }
+    .ban-div{
+        display: block;
+        background-image: url(images/bg-hero-mobile.svg);
+    }
+    .ban-btn{
+        margin-left:250px;
+        margin-top: -60px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+    }
+    .first-div{
+        display: block;
+        background-image: url(images/bg-hero-mobile.svg);
+    }
+    .text{
+        text-align: center;
+        margin-left: -10px;
+    }
+    .first-img{
+       margin-left: 30px;
+       width: 30vw;
+    }
+    .second-div{
+        display: block;
+        width: 77%;
+        margin-left: 50px;
+    }
+    .second-img{
+        width:60vw;
+        position: relative;
+        
+    }
+    .second-text{
+        text-align: center;
+        margin-left: 10px;
+        padding-bottom: 20px;
+    }
+    .third-div{
+        display: block;
+        width: 75%;
+        margin-left: 50px;
+    }
+    .fourth-div{
+        display: block;
+        width: 75%;
+        margin-left: 50px;
+    }
+    .fifth-div{
+        bottom:-1650px;
+        margin-left: 80px;
+        width:60vw;
+        
+    }
+    .colorize-svg{
+        margin-top: 40px;
+        padding: 10px;
+    }
+    .footer-div{
+        display: block;
+        margin-top: 20px;
+    }
+    li{
+        font-size:20px;
+        margin-left: -100px;
+    }
+
+    .social-network{
+        align-items: center;
+        margin-top: 30px;
+    }
+    .copyright{
+        
+        margin-left: 40px;
+    }
 }
